@@ -32,7 +32,7 @@ export default function ThankYou() {
             العودة للصفحة الرئيسية
           </a>
           <a
-            href="https://wa.me/201008900076?text=أهلاً، سجلت استفساري وعايز أتكلم مباشرة"
+            href="https://wa.me/201001050018?text=أهلاً، سجلت استفساري وعايز أتكلم مباشرة"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#25d366] text-white py-3 rounded-xl font-semibold hover:bg-[#20bd5a] transition"
