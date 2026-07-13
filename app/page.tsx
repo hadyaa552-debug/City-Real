@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef, FormEvent } from "react";
 
 // ─── Constants (غيّرهم لما يجهزوا) ─────────────────────────
-const P = "01008900076";
-const PD = "+201008900076";
-const PI = "201008900076";
-const WN = "201008900076";
+const P = "01001050018";
+const PD = "+201001050018";
+const PI = "201001050018";
+const WN = "201001050018";
 const WK = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 const GA_ID = "AW-XXXXXXXXXX";
 const CONV_FORM = "XXXXXXXXXXX";
