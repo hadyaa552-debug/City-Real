@@ -38,7 +38,7 @@ const projects = [
     description:
       "مشروع سكني ساحلي فاخر على مساحة 707 فدان بإطلالة مباشرة على اللاجون وشاطئ البحر المتوسط. شاليهات وفلل وتاون هاوس بتصميم عصري وتشطيب كامل.",
     image:
-      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/Maz-Apt-2-scaled.jpg",
+      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/Maz-Apt-2-1024x683.jpg",
     specs: [
       { value: "707", unit: "فدان", label: "المساحة الإجمالية" },
       { value: "من 141", unit: "م²", label: "مساحات الوحدات" },
@@ -61,7 +61,7 @@ const projects = [
     description:
       "شقق سكنية راقية بإطلالة مرتفعة مميزة. كل مبنى بطابقين بدروم للجراج. حدائق داخلية وأفنية لكل المباني بتصميم عصري متكامل.",
     image:
-      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/R5_New_Capital_02lll-scaled.jpg",
+      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/R5_New_Capital_02lll-1024x683.jpg",
     specs: [
       { value: "من 76", unit: "م²", label: "مساحات الوحدات" },
       { value: "1–4", unit: "غرف", label: "غرف النوم" },
@@ -84,7 +84,7 @@ const projects = [
     description:
       "مجتمع سكني متكامل بتصميمات كلاسيكية ومتوسطية وعصرية. منطقتين سكنيتين بحدائق داخلية وممرات مشاة. وحدات أنيقة وعملية بأسعار مناسبة.",
     image:
-      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/AlMaqsad-New-Capital-scaled.jpg",
+      "https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/Al_Maqsad_34-Copy-1-1024x597.jpg",
     specs: [
       { value: "من 90", unit: "م²", label: "مساحات الوحدات" },
       { value: "1–3", unit: "غرف", label: "غرف النوم" },
@@ -208,7 +208,7 @@ function RegistrationForm({
       <input type="hidden" name="access_key" value={WK} />
       <input type="hidden" name="subject" value="New Lead — City Edge Landing Page" />
       <input type="hidden" name="from_name" value="City Edge Landing" />
-      <input type="hidden" name="cc" value="leads@grandeur-spaces.com" />
+      {/* <input type="hidden" name="cc" value="YOUR_CC_EMAIL" /> */}
       <input type="checkbox" name="botcheck" className="hidden" />
 
       <input type="text" name="name" required placeholder="الاسم بالكامل" className={inputBase} />
@@ -715,9 +715,7 @@ export default function CityEdgeLanding() {
               * الأسعار المذكورة أسعار استرشادية قابلة للتغيير. للحصول على الأسعار المحدثة يرجى التواصل معنا.
             </p>
             <p>
-              هذه الصفحة مقدمة من{" "}
-              <a href="https://grandeur-spaces.com" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Grandeur Spaces</a>
-              {" "}كوكيل معتمد لـ سيتي إيدج للتطوير العقاري وليست موقعاً رسمياً للمطور.
+              هذه الصفحة تسويقية مقدمة من مستشار عقاري مستقل وليست موقعاً رسمياً لشركة سيتي إيدج للتطوير العقاري.
             </p>
             <p>
               للاستفسار: <a href={`tel:${PD}`} onClick={trackCall} className="text-gold hover:underline" dir="ltr">{P}</a>
@@ -784,12 +782,12 @@ export default function CityEdgeLanding() {
             <button onClick={() => setShowPrivacy(false)} className="absolute top-3 left-3 text-gray-400 hover:text-gray-600 text-xl">✕</button>
             <h3 className="text-lg font-bold text-navy mb-4">سياسة الخصوصية</h3>
             <div className="text-sm text-text space-y-3 leading-relaxed">
-              <p>تلتزم Grandeur Spaces بحماية خصوصية بياناتك الشخصية.</p>
+              <p>نلتزم بحماية خصوصية بياناتك الشخصية.</p>
               <p>البيانات التي نجمعها (الاسم، رقم الهاتف) تُستخدم فقط للتواصل معك بخصوص استفسارك العقاري.</p>
               <p>لا نشارك بياناتك مع أي طرف ثالث باستثناء المطور العقاري (سيتي إيدج) لغرض الرد على استفسارك.</p>
               <p>يمكنك طلب حذف بياناتك في أي وقت عبر التواصل معنا.</p>
               <p>نستخدم ملفات تعريف الارتباط لتحسين تجربة التصفح وقياس أداء الحملات الإعلانية.</p>
-              <p>هذا الموقع ليس الموقع الرسمي لشركة سيتي إيدج. Grandeur Spaces وكيل معتمد للمبيعات.</p>
+              <p>هذا الموقع ليس الموقع الرسمي لشركة سيتي إيدج للتطوير العقاري.</p>
             </div>
           </div>
         </div>
