@@ -328,8 +328,17 @@ export default function CityEdgeLanding() {
       </header>
 
       {/* ═══ HERO + INLINE FORM ═══ */}
-      <section className="relative pt-14 min-h-[100vh] md:min-h-[90vh] bg-navy overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.07]">
+      <section className="relative pt-14 min-h-[100vh] md:min-h-[90vh] overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img
+            src="https://cityedgedevelopments.com/cityedgedevelopmentswordpress/wp-content/uploads/2025/07/Maz-Apt-1-1024x683.jpg"
+            alt=""
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-navy/95 via-navy/90 to-navy/75" />
+        </div>
+        <div className="absolute inset-0 opacity-[0.05]">
           <div className="absolute top-10 right-10 w-72 h-72 rounded-full bg-gold blur-[100px]" />
           <div className="absolute bottom-10 left-10 w-96 h-96 rounded-full bg-gold blur-[120px]" />
         </div>
